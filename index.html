@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5c54d32cac.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div id="header" >
+        <div class="container">
+            <nav>
+                <img src="image/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hii, I'm <span>Tamanna Singh</span> <br>From Saharsa Bihar</h1>
+            </div>
+        </div>
+        </div>
+        <!-------------about--------->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="image/user.jpeg" alt="">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>Dynamic Computer Science Engineering student with strong problem-solving and software development skills. Experienced
+in building responsive web applications and solving challenges through hackathons.
+</p>
+<div class="tab-titles">
+    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Eductaion</p>
+</div>
+<div class="tab-contents active-tab" id="skills">
+    <ul>
+        <li><span>UI/UX</span><br>Designing Web/app Interfaces</li>
+               <li><span>Web Develpoment</span><br>Web app Development</li>
+                      <li><span>App Development</span><br>Building Android/ios apps</li>
+    </ul>
+</div>
+<div class="tab-contents" id="experience">
+    <ul>
+        <li><span>2025-current</span><br>UI/UX Design Training at Capgemini</li>
+               <li><span>2024-2025</span><br>Intern at Metacrafter deploying blockchain projects</li>
+                      <li><span>2023-2024</span><br>Industrial Training </li>
+    </ul>
+</div>
+<div class="tab-contents" id="education">
+    <ul>
+        <li><span>2022-2026</span><br>BTech at Chandigarh University <br> <span>Cgpa:8.05</span></li>
+               <li><span>2018-2022</span><br>Intermediate from Eklavya Central School <br><span>Percentage:87</span></li>
+                      <li><span>2017-2018</span><br>10th from Eklavya Central School <br><span>Percentage: 92</span></li>
+    </ul>
+</div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-------------services----------->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-sharp fa-regular fa-code"></i>
+                        <h2>Web Design</h2>
+                        <p>I design modern, responsive, and user-friendly websites with a focus on clear layouts, smooth user experience, and strong visual appeal. My work blends creativity with practical UX principles to create websites that look great on all devices and effectively communicate the brand’s message</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                     <div>
+                        <i class="fa-solid fa-crop"></i>
+                        <h2>UI/UX Design</h2>
+                        <p>I create intuitive and visually appealing user interfaces focused on seamless user experiences. My design approach balances creativity with functionality, using clean layouts, thoughtful interactions, and user-centered principles. I aim to craft digital products that are easy to use, aesthetically pleasing, and engaging across all devices.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                     <div>
+                        <i class="fa-brands fa-apple"></i>
+                        <h2>App Design</h2>
+                        <p>I design clean, modern, and intuitive mobile app interfaces that focus on seamless user journeys and clear usability. My work combines thoughtful UI elements, smooth navigation, and user-centered principles to create apps that are visually appealing, easy to use, and optimized for both Android and iOS.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+        <!------------portfolio----------->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="image/work-1.png" alt="">
+                        <div class="layer">
+                            <h3>Social Media App</h3>
+                            <p> The app connects you to the talented people around the world. Download it from Play Store</p>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+
+                        </div>
+   
+           
+                    </div>
+                    <div class="work">
+                        <img src="image/work-2.png" alt="">
+                                                  <div class="layer">
+                            <h3>Music App</h3>
+                            <p> This Music App is designed to provide users with a smooth and enjoyable listening experience. It features a clean interface, easy navigation, and smart music discovery tools.</p>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="image/work-3.png" alt="">
+                                          <div class="layer">
+                            <h3>Online Shopping App</h3>
+                            <p> This Online Shopping App is designed to offer users a fast, convenient, and enjoyable shopping experience. It features a clean layout, easy product browsing, smart filters, and a smooth checkout process.</p>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See more</a>
+            </div>
+        </div>
+        <!------------contact--------->
+       <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i>tamannasingh151@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>9142044196</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/share/1GQXpHgZe1/"><i class="fa-brands fa-facebook"></i></a>
+                               <a href="https://www.instagram.com/tamanna.489?igsh=MWhjdzJ2cXZ4amtwaQ=="><i class="fa-brands fa-instagram"></i></i></a>
+                                      <a href=""><i class="fa-brands fa-threads"></i><i></a>
+                                                           <a href=""><i class="fa-brands fa-linkedin"></i></i><i></a>
+
+                    </div>
+                    <a href="image/Tamanna Singh resume (1) (2).pdf" download class="btn btn2">Download Resume</a>
+
+                </div>   
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your emai" required>
+                        <textarea name="Message" row="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>   
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright @Tamanna Singh . Made by <i class="fas fa-heart"></i>Tamanna Singh</p>
+            </div>
+        </div>
+
+       </div>
+    <script>
+        var tablinks= document.getElementsByClassName("tab-links");
+          var tabcontents= document.getElementsByClassName("tab-contents");
+          function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+             for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+          }
+
+    </script>
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemeu.style.right="0";
+        }
+         function closemenu(){
+            sidemeu.style.right="-200px";
+        }
+    </script>
+    <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbyq_XSCgsXJ9H84G3pBiprkZuCoaO0xuh2UWP55S733GAAhPnjaBD9GhKBqoGTPdurvSg/exec'
+  const form = document.forms['submit-to-google-sheet']
+const msg= document.getElementById("msg")
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {msg.innerHTML="Message Sent successfully" 
+        setTimeout(function(){
+            msg.innerHTML=""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html>
